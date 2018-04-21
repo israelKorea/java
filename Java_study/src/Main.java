@@ -23,5 +23,6 @@ public class Main {
 		
 		Variable var = new Variable();
 		var.var1();
+		var.type();
 	}
 }

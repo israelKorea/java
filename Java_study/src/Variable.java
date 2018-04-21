@@ -32,4 +32,17 @@ public class Variable {
 		 *  
 		 * */
 	}
+	public void type() {
+		/*
+		 * 자료형을 아는 건 언어의 반을 터득한 것
+		 * */
+		int a = 10;
+		long b = 1033923412312121221L;
+		float c = 3.14F;
+		double d = 3.143434343434343434343;
+		double d1 = 123.4;
+		double d2 = 1.234e2;
+		System.out.println(a +"/"+b+"/"+c+"/"+d+"/"+d1+"/"+d2);
+		
+	}
 }

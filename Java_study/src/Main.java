@@ -1,6 +1,15 @@
 
 public class Main {
 
+	/*
+	 * main메소드는 프로그램 실행시 파라미터를 입력받을 수 있음
+	 * >> String[] args 통해서 저장됨
+	 * String : 문자열을 나타내는 자바의 자료형
+	 * args[] : String자료형에 대한 변수명으로 args뒤에 []가 있어서 배열임
+	 * 
+	 * ex. C:\> java Test a b c
+	 * 실행 시, 입력값 순서대로 a b c가 저장된다
+	 * */
 	public static void main(String[] args) {
 		// 2018.4.22 at midnight
 		/*

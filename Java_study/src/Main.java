@@ -20,9 +20,14 @@ public class Main {
 		 * public, static 등은 인스턴스, 객체 등을 알고 짚어야 한다
 		 * */
 		System.out.println("hello world!");
-		
+		/*
 		Variable var = new Variable();
 		var.var1();
 		var.type();
+		*/
+		AccessModifier am = new AccessModifier();
+		 am.cnt();
+		AccessModifier am1 = new AccessModifier();
+		am1.cnt();
 	}
 }

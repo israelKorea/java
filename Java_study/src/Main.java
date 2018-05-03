@@ -2,22 +2,22 @@
 public class Main {
 
 	/*
-	 * main메소드는 프로그램 실행시 파라미터를 입력받을 수 있음
-	 * >> String[] args 통해서 저장됨
-	 * String : 문자열을 나타내는 자바의 자료형
-	 * args[] : String자료형에 대한 변수명으로 args뒤에 []가 있어서 배열임
+	 * main硫붿냼�뱶�뒗 �봽濡쒓렇�옩 �떎�뻾�떆 �뙆�씪誘명꽣瑜� �엯�젰諛쏆쓣 �닔 �엳�쓬
+	 * >> String[] args �넻�빐�꽌 ���옣�맖
+	 * String : 臾몄옄�뿴�쓣 �굹���궡�뒗 �옄諛붿쓽 �옄猷뚰삎
+	 * args[] : String�옄猷뚰삎�뿉 ���븳 蹂��닔紐낆쑝濡� args�뮘�뿉 []媛� �엳�뼱�꽌 諛곗뿴�엫
 	 * 
 	 * ex. C:\> java Test a b c
-	 * 실행 시, 입력값 순서대로 a b c가 저장된다
+	 * �떎�뻾 �떆, �엯�젰媛� �닚�꽌��濡� a b c媛� ���옣�맂�떎
 	 * */
 	public static void main(String[] args) {
 		// 2018.4.22 at midnight
 		/*
-		 * public : 접근제어자
-		 * static : 메소드 static 선언시, 인스턴스 생성없이 실행 가능
-		 * void : 리턴값이 없음
-		 * Sysout : 표준출력으로 데이터를 보내는 자바의 내장 메소드
-		 * public, static 등은 인스턴스, 객체 등을 알고 짚어야 한다
+		 * public : �젒洹쇱젣�뼱�옄
+		 * static : 硫붿냼�뱶 static �꽑�뼵�떆, �씤�뒪�꽩�뒪 �깮�꽦�뾾�씠 �떎�뻾 媛��뒫
+		 * void : 由ы꽩媛믪씠 �뾾�쓬
+		 * Sysout : �몴以�異쒕젰�쑝濡� �뜲�씠�꽣瑜� 蹂대궡�뒗 �옄諛붿쓽 �궡�옣 硫붿냼�뱶
+		 * public, static �벑�� �씤�뒪�꽩�뒪, 媛앹껜 �벑�쓣 �븣怨� 吏싳뼱�빞 �븳�떎
 		 * */
 		System.out.println("hello world!");
 		/*
@@ -25,9 +25,12 @@ public class Main {
 		var.var1();
 		var.type();
 		*/
-		AccessModifier am = new AccessModifier();
+		/*AccessModifier am = new AccessModifier();
 		 am.cnt();
 		AccessModifier am1 = new AccessModifier();
-		am1.cnt();
+		am1.cnt();*/
+		
+		Instance ist = new Instance();
+		ist.instance_main();
 	}
 }
